@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  teki
+//  Teki
 //
 //  Created by mickael on 21/11/2019.
 //  Copyright © 2019 mickael. All rights reserved.

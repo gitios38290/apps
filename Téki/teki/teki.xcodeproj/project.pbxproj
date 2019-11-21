@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CA3426822386F1E100B7BA54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3426812386F1E100B7BA54 /* AppDelegate.swift */; };
-		CA3426842386F1E100B7BA54 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3426832386F1E100B7BA54 /* SceneDelegate.swift */; };
-		CA3426862386F1E100B7BA54 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3426852386F1E100B7BA54 /* ContentView.swift */; };
-		CA3426882386F1E700B7BA54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA3426872386F1E700B7BA54 /* Assets.xcassets */; };
-		CA34268B2386F1E700B7BA54 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA34268A2386F1E700B7BA54 /* Preview Assets.xcassets */; };
-		CA34268E2386F1E700B7BA54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA34268C2386F1E700B7BA54 /* LaunchScreen.storyboard */; };
+		CA7BB53B2386F35D00B0E4AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7BB53A2386F35D00B0E4AF /* AppDelegate.swift */; };
+		CA7BB53D2386F35D00B0E4AF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7BB53C2386F35D00B0E4AF /* SceneDelegate.swift */; };
+		CA7BB53F2386F35D00B0E4AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7BB53E2386F35D00B0E4AF /* ViewController.swift */; };
+		CA7BB5422386F35D00B0E4AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA7BB5402386F35D00B0E4AF /* Main.storyboard */; };
+		CA7BB5442386F35F00B0E4AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA7BB5432386F35F00B0E4AF /* Assets.xcassets */; };
+		CA7BB5472386F35F00B0E4AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA7BB5452386F35F00B0E4AF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CA34267E2386F1E100B7BA54 /* teki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = teki.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CA3426812386F1E100B7BA54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CA3426832386F1E100B7BA54 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CA3426852386F1E100B7BA54 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		CA3426872386F1E700B7BA54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CA34268A2386F1E700B7BA54 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		CA34268D2386F1E700B7BA54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		CA34268F2386F1E700B7BA54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA7BB5372386F35D00B0E4AF /* Teki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Teki.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA7BB53A2386F35D00B0E4AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CA7BB53C2386F35D00B0E4AF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CA7BB53E2386F35D00B0E4AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CA7BB5412386F35D00B0E4AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA7BB5432386F35F00B0E4AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA7BB5462386F35F00B0E4AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA7BB5482386F35F00B0E4AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CA34267B2386F1E100B7BA54 /* Frameworks */ = {
+		CA7BB5342386F35D00B0E4AF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,80 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CA3426752386F1E000B7BA54 = {
+		CA7BB52E2386F35D00B0E4AF = {
 			isa = PBXGroup;
 			children = (
-				CA3426802386F1E100B7BA54 /* teki */,
-				CA34267F2386F1E100B7BA54 /* Products */,
+				CA7BB5392386F35D00B0E4AF /* Teki */,
+				CA7BB5382386F35D00B0E4AF /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		CA34267F2386F1E100B7BA54 /* Products */ = {
+		CA7BB5382386F35D00B0E4AF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CA34267E2386F1E100B7BA54 /* teki.app */,
+				CA7BB5372386F35D00B0E4AF /* Teki.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CA3426802386F1E100B7BA54 /* teki */ = {
+		CA7BB5392386F35D00B0E4AF /* Teki */ = {
 			isa = PBXGroup;
 			children = (
-				CA3426812386F1E100B7BA54 /* AppDelegate.swift */,
-				CA3426832386F1E100B7BA54 /* SceneDelegate.swift */,
-				CA3426852386F1E100B7BA54 /* ContentView.swift */,
-				CA3426872386F1E700B7BA54 /* Assets.xcassets */,
-				CA34268C2386F1E700B7BA54 /* LaunchScreen.storyboard */,
-				CA34268F2386F1E700B7BA54 /* Info.plist */,
-				CA3426892386F1E700B7BA54 /* Preview Content */,
+				CA7BB53A2386F35D00B0E4AF /* AppDelegate.swift */,
+				CA7BB53C2386F35D00B0E4AF /* SceneDelegate.swift */,
+				CA7BB53E2386F35D00B0E4AF /* ViewController.swift */,
+				CA7BB5402386F35D00B0E4AF /* Main.storyboard */,
+				CA7BB5432386F35F00B0E4AF /* Assets.xcassets */,
+				CA7BB5452386F35F00B0E4AF /* LaunchScreen.storyboard */,
+				CA7BB5482386F35F00B0E4AF /* Info.plist */,
 			);
-			path = teki;
-			sourceTree = "<group>";
-		};
-		CA3426892386F1E700B7BA54 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				CA34268A2386F1E700B7BA54 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
+			path = Teki;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CA34267D2386F1E100B7BA54 /* teki */ = {
+		CA7BB5362386F35D00B0E4AF /* Teki */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CA3426922386F1E700B7BA54 /* Build configuration list for PBXNativeTarget "teki" */;
+			buildConfigurationList = CA7BB54B2386F35F00B0E4AF /* Build configuration list for PBXNativeTarget "Teki" */;
 			buildPhases = (
-				CA34267A2386F1E100B7BA54 /* Sources */,
-				CA34267B2386F1E100B7BA54 /* Frameworks */,
-				CA34267C2386F1E100B7BA54 /* Resources */,
+				CA7BB5332386F35D00B0E4AF /* Sources */,
+				CA7BB5342386F35D00B0E4AF /* Frameworks */,
+				CA7BB5352386F35D00B0E4AF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = teki;
-			productName = teki;
-			productReference = CA34267E2386F1E100B7BA54 /* teki.app */;
+			name = Teki;
+			productName = Teki;
+			productReference = CA7BB5372386F35D00B0E4AF /* Teki.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CA3426762386F1E100B7BA54 /* Project object */ = {
+		CA7BB52F2386F35D00B0E4AF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1120;
 				LastUpgradeCheck = 1120;
 				ORGANIZATIONNAME = mickael;
 				TargetAttributes = {
-					CA34267D2386F1E100B7BA54 = {
+					CA7BB5362386F35D00B0E4AF = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
 				};
 			};
-			buildConfigurationList = CA3426792386F1E100B7BA54 /* Build configuration list for PBXProject "teki" */;
+			buildConfigurationList = CA7BB5322386F35D00B0E4AF /* Build configuration list for PBXProject "Teki" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,47 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = CA3426752386F1E000B7BA54;
-			productRefGroup = CA34267F2386F1E100B7BA54 /* Products */;
+			mainGroup = CA7BB52E2386F35D00B0E4AF;
+			productRefGroup = CA7BB5382386F35D00B0E4AF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CA34267D2386F1E100B7BA54 /* teki */,
+				CA7BB5362386F35D00B0E4AF /* Teki */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CA34267C2386F1E100B7BA54 /* Resources */ = {
+		CA7BB5352386F35D00B0E4AF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA34268E2386F1E700B7BA54 /* LaunchScreen.storyboard in Resources */,
-				CA34268B2386F1E700B7BA54 /* Preview Assets.xcassets in Resources */,
-				CA3426882386F1E700B7BA54 /* Assets.xcassets in Resources */,
+				CA7BB5472386F35F00B0E4AF /* LaunchScreen.storyboard in Resources */,
+				CA7BB5442386F35F00B0E4AF /* Assets.xcassets in Resources */,
+				CA7BB5422386F35D00B0E4AF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CA34267A2386F1E100B7BA54 /* Sources */ = {
+		CA7BB5332386F35D00B0E4AF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA3426822386F1E100B7BA54 /* AppDelegate.swift in Sources */,
-				CA3426842386F1E100B7BA54 /* SceneDelegate.swift in Sources */,
-				CA3426862386F1E100B7BA54 /* ContentView.swift in Sources */,
+				CA7BB53F2386F35D00B0E4AF /* ViewController.swift in Sources */,
+				CA7BB53B2386F35D00B0E4AF /* AppDelegate.swift in Sources */,
+				CA7BB53D2386F35D00B0E4AF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CA34268C2386F1E700B7BA54 /* LaunchScreen.storyboard */ = {
+		CA7BB5402386F35D00B0E4AF /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CA34268D2386F1E700B7BA54 /* Base */,
+				CA7BB5412386F35D00B0E4AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA7BB5452386F35F00B0E4AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA7BB5462386F35F00B0E4AF /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		CA3426902386F1E700B7BA54 /* Debug */ = {
+		CA7BB5492386F35F00B0E4AF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -226,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		CA3426912386F1E700B7BA54 /* Release */ = {
+		CA7BB54A2386F35F00B0E4AF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -280,40 +280,36 @@
 			};
 			name = Release;
 		};
-		CA3426932386F1E700B7BA54 /* Debug */ = {
+		CA7BB54C2386F35F00B0E4AF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"teki/Preview Content\"";
 				DEVELOPMENT_TEAM = 4Y8RB3KDT5;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = teki/Info.plist;
+				INFOPLIST_FILE = Teki/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mickaelgomez.teki;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mickaelgomez.Teki;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		CA3426942386F1E700B7BA54 /* Release */ = {
+		CA7BB54D2386F35F00B0E4AF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"teki/Preview Content\"";
 				DEVELOPMENT_TEAM = 4Y8RB3KDT5;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = teki/Info.plist;
+				INFOPLIST_FILE = Teki/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mickaelgomez.teki;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mickaelgomez.Teki;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -323,25 +319,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CA3426792386F1E100B7BA54 /* Build configuration list for PBXProject "teki" */ = {
+		CA7BB5322386F35D00B0E4AF /* Build configuration list for PBXProject "Teki" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CA3426902386F1E700B7BA54 /* Debug */,
-				CA3426912386F1E700B7BA54 /* Release */,
+				CA7BB5492386F35F00B0E4AF /* Debug */,
+				CA7BB54A2386F35F00B0E4AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CA3426922386F1E700B7BA54 /* Build configuration list for PBXNativeTarget "teki" */ = {
+		CA7BB54B2386F35F00B0E4AF /* Build configuration list for PBXNativeTarget "Teki" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CA3426932386F1E700B7BA54 /* Debug */,
-				CA3426942386F1E700B7BA54 /* Release */,
+				CA7BB54C2386F35F00B0E4AF /* Debug */,
+				CA7BB54D2386F35F00B0E4AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CA3426762386F1E100B7BA54 /* Project object */;
+	rootObject = CA7BB52F2386F35D00B0E4AF /* Project object */;
 }
